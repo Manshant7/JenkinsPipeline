@@ -2,8 +2,8 @@ pipeline {
     agent any
     
     environment {
-        DIRECTORY_PATH = '/path/to/code'
-        TESTING_ENVIRONMENT = 'QA'
+        DIRECTORY_PATH = 'https://github.com/Manshant7/JenkinsPipeline.git'
+        TESTING_ENVIRONMENT = 'staging'
         PRODUCTION_ENVIRONMENT = 'Manshant'
     }
     
